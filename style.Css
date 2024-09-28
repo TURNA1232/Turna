@@ -1,0 +1,66 @@
+body{
+    background-color: #121212;;
+    color: aliceblue;
+    font-family: Arial, sans-serif;
+}
+.navbar{
+    padding: 20px;
+}
+
+.navlink{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+.hero{
+    font-size: 30px;
+    text-align: center;
+    padding: 100px;
+    background: url("https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2014/12/10/1418229974705/fountain-pen-handwriting-011.jpg?quality=85&auto=format&fit=max&s=b6e6c8dc71569c866c8817dca0b21128"
+    );
+}
+.products{
+    margin-bottom: 100px;
+}
+.product-grid{
+   gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2,h3,p{
+    text-align: center;
+    
+
+    }
+
+.product-card{
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 10px;
+}
+.contact{
+    padding: 50px;
+    width: 100%;
+    margin: auto;
+   
+}
+.contact label{
+    display: block;
+    margin-bottom: 20px;
+}
+.contact input,textarea{
+    width: 50%;
+    background-color: rgb(216, 226, 226);
+    border-radius: 5px;
+   margin-bottom: 20PX;
+    padding: 10px;
+    color: White;
+    border: none;
+
+}
+.contact-prants{
+    background-color:  #1f1f1f;
+    margin-left: 20px;
+    margin-right: 20px;
+}
